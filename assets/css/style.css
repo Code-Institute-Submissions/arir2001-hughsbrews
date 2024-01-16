@@ -1,0 +1,33 @@
+/* Wildcard selector - applies to all.  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*general styles*/
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    /*generic project styles*/
+    color: #3a3a3a
+
+}
+
+/*header */
+header {
+    background: blue
+}
+
+/*main */
+main {
+    background: red;
+    flex: 1 0 auto; 
+    /* make main take up as surplus space in body to push footer down. */
+}
+
+/*footer */
+footer {
+    background: lightcoral
+}
