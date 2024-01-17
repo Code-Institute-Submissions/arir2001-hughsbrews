@@ -35,6 +35,13 @@ header a {
     display: inline-flex;
     color: inherit;
     align-items: center;
+    letter-spacing: 1.5px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
 }
 
 /* ensuring the navigation is responsive */
@@ -53,6 +60,7 @@ header a {
 .navright {
     margin: auto;
     margin-right: 0;
+    padding: 0 2%;
 }
 
 /* navigation button stylings */
