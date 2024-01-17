@@ -29,32 +29,63 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+/* links inside the header*/
+header a {
+    text-align: center;
+    display: inline-flex;
+    color: inherit;
+    align-items: center;
+}
 
+/* ensuring the navigation is responsive */
 .navposition {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
+/* lefthand side of navigation and right hand side*/
 .navleft {
     display: flex;
     justify-content: flex-start;
 }
 
 .navright {
-    padding: 5px 10px;
-    text-align: center;
-    display: inline-flex;
-    align-items: center;
-    padding: 5px;
-    border-radius: 10px / 30px;
-    border-style: double;
-    text-decoration: none;
     margin: auto;
     margin-right: 0;
 }
 
+/* navigation button stylings */
+.navigation-l {
+    text-decoration: none;
+    border-radius: 10px / 30px;
+    border: 1px solid transparent;
+    padding: 1%;
+}
 
+.navigation-l:hover {
+    background-color: rgba(100, 148, 237, 0.175);
+    color: white;
+    border-style: double;
+    border-color: white;
+    border-width: 1px;
+}
+
+.navigation-r {
+    border-radius: 10px / 30px;
+    border-style: double;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+}
+
+.navigation-r:hover {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: wavy underline red;
+    transform: scale(1.2);
+}
 
 /*main */
 main {
