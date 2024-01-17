@@ -147,8 +147,8 @@ main {
 footer {
     background: lightcoral;
     display: flex;
-    align-items: center;
-    padding: 3%;
+    padding: 1em 3%;
+    flex-direction: column;
 }
 
 #social-networks {
@@ -172,7 +172,19 @@ footer {
 
 #newslettersignup {
     display: none;
-    order: 1;
+    border: aliceblue;
+    border-style: solid;
+    border-radius: 19% 67% 20% 90%;
+    background: #ffc0cbab;
+    text-align: center;
+}
+
+#email-toggle:checked~div {
+    display: block;
+}
+
+#email-toggle {
+    display: none;
 }
 
 /* Style the input elements and the submit button */
@@ -195,7 +207,11 @@ input[type=submit]:hover {
     cursor: grab;
 }
 
-
+/* Main content */
+main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 79px;
+}
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -231,6 +247,15 @@ input[type=submit]:hover {
     }
 
     /* footer changes so email sign up shows on left, social media on right */
+    footer {
+        background: lightcoral;
+        display: flex;
+        align-items: center;
+        padding: 1em 3%;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
     #emailicon {
         display: none;
     }
@@ -259,19 +284,10 @@ input[type=submit]:hover {
         justify-content: flex-start;
     }
 
-
-
-
-
-
 }
 
-/* Main content */
-main {
-    /* Push main content down to accommodate larger header */
-    margin-top: 79px;
-}
-}
+
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {}
