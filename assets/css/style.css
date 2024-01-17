@@ -137,15 +137,19 @@ main {
 
 /*footer */
 footer {
-    background: lightcoral
+    background: lightcoral;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
 }
 
 #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style-type: none;
+    order: 4;
 }
 
 #social-networks i {
@@ -154,10 +158,45 @@ footer {
     color: #3a3a3a;
 }
 
+/* Newsletter sign up*/
+
+#newslettersignup {
+    display: none;
+    order: 1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text],
+input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+    /* nav changes to all be on the same line */
     header {
         background-color: #ffffff;
         padding: 1rem;
@@ -185,6 +224,40 @@ footer {
         box-shadow: none;
 
     }
+
+    /* footer changes so address shows on left, social media on right and tagline in middle*/
+    #addressicon {
+        display: none;
+    }
+
+    #social-networks {
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        width: 28%;
+        right: 0;
+        margin: auto;
+        margin-right: 0;
+    }
+
+    #newslettersignup {
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        left: 0;
+        margin: auto;
+        margin-left: 0;
+    }
+
+
+
+
+
+
 }
 
 
