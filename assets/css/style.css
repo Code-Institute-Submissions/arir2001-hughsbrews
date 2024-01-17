@@ -172,7 +172,7 @@ input[type=submit] {
     padding: 12px;
     border: none;
     font: inherit;
-    margin:auto;
+    margin: auto;
 }
 
 /* Style the submit button */
@@ -182,7 +182,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    opacity: 0.8;
+    opacity: 0.6;
     /*cursor: <i class="fa-regular fa-paper-plane"></i>;*/
 }
 
@@ -219,8 +219,8 @@ input[type=submit]:hover {
 
     }
 
-    /* footer changes so address shows on left, social media on right and tagline in middle*/
-    #addressicon {
+    /* footer changes so email sign up shows on left, social media on right */
+    #emailicon {
         display: none;
     }
 
@@ -234,6 +234,12 @@ input[type=submit]:hover {
         right: 0;
         margin: auto;
         margin-right: 0;
+        flex-grow: 1;
+    }
+
+    #social-networks:hover {
+        opacity: 0.6;
+
     }
 
     #newslettersignup {
@@ -254,9 +260,6 @@ input[type=submit]:hover {
 
 }
 
-
-#headlogo {}
-
 /* Main content */
 main {
     /* Push main content down to accommodate larger header */
@@ -266,3 +269,13 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {}
+
+
+
+
+/*notes
+
+sign up ref: https: //www.w3schools.com/howto/howto_css_newsletter.asp
+
+
+*/
