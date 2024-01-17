@@ -21,12 +21,44 @@ body {
 
 /*header */
 header {
-    background: blue
+    background-color: #ffffff;
+    padding: 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
+
+
+.navposition {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navleft {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navright {
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px / 30px;
+    border-style: double;
+    text-decoration: none;
+    margin: auto;
+    margin-right: 0;
+}
+
+
 
 /*main */
 main {
-    background: red;
+    background: rgb(82, 177, 155);
     flex: 1 0 auto;
     /* make main take up as surplus space in body to push footer down. */
 }
