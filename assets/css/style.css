@@ -55,6 +55,7 @@ h1 {
 .navleft {
     display: flex;
     justify-content: flex-start;
+    1
 }
 
 .navright {
@@ -93,6 +94,11 @@ h1 {
     color: black;
     text-decoration: wavy underline red;
     transform: scale(1.2);
+}
+
+/* to show which page you're on in the nav bar*/
+.active {
+    color: rgb(82, 177, 155);
 }
 
 /*main */
