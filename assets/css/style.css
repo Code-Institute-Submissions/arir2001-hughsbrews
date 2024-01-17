@@ -135,6 +135,14 @@ main {
     /* make main take up as surplus space in body to push footer down. */
 }
 
+#welcome {
+    height: 600px;
+    width: 100%;
+    background: url("../images/bartender.jpg") no-repeat center center/cover;
+    background-color: blue;
+}
+
+
 /*footer */
 footer {
     background: lightcoral;
@@ -150,6 +158,7 @@ footer {
     justify-content: space-around;
     list-style-type: none;
     order: 4;
+    flex-grow: 1;
 }
 
 #social-networks i {
@@ -183,8 +192,10 @@ input[type=submit] {
 
 input[type=submit]:hover {
     opacity: 0.6;
-    /*cursor: <i class="fa-regular fa-paper-plane"></i>;*/
+    cursor: grab;
 }
+
+
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -228,13 +239,13 @@ input[type=submit]:hover {
         text-align: center;
         padding: 20px 0;
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-end;
         list-style-type: none;
         width: 28%;
         right: 0;
         margin: auto;
         margin-right: 0;
-        flex-grow: 1;
+        gap: 8%;
     }
 
     #social-networks:hover {
@@ -243,14 +254,9 @@ input[type=submit]:hover {
     }
 
     #newslettersignup {
-        text-align: center;
         padding: 20px 0;
         display: flex;
-        justify-content: space-around;
-        width: 30%;
-        left: 0;
-        margin: auto;
-        margin-left: 1em;
+        justify-content: flex-start;
     }
 
 
