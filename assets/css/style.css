@@ -19,7 +19,7 @@ body {
     font-family: 'Special Elite', 'Courier New', Courier, monospace;
 }
 
-/*header */
+/*--------------------------header --------------------------*/
 header {
     background-color: #ffffff;
     padding: 1rem;
@@ -40,6 +40,16 @@ header a {
 
 h1 {
     text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    text-transform: lowercase;
     letter-spacing: 2px;
 }
 
@@ -125,25 +135,33 @@ header a {
 
 /* to show which page you're on in the nav bar*/
 .active {
-    color: rgb(82, 177, 155);
+    color: blanchedalmond;
 }
 
-/*main */
+/*--------------------------main --------------------------*/
 main {
-    background: rgb(82, 177, 155);
+    background: blanchedalmond;
     flex: 1 0 auto;
     /* make main take up as surplus space in body to push footer down. */
 }
 
 #welcome {
+    padding: 15%;
     height: 600px;
     width: 100%;
-    background: url("../images/bartender.jpg") no-repeat center center/cover;
-    background-color: blue;
+    background: url("../images/bartendersingle.jpg") no-repeat center center/cover pink;
+    position: relative;
 }
 
+#welcome2 {
+    border: solid 1%;
+    background: pink;
+    text-align: center;
+    padding: 5%;
 
-/*footer */
+}
+
+/*----------------------------footer--------------------------*/
 footer {
     background: lightcoral;
     display: flex;
