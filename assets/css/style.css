@@ -21,7 +21,7 @@ body {
 
 /*--------------------------header --------------------------*/
 header {
-    background-color: #ffffff;
+    background-color: #f7f0e4;
     padding: 1rem;
     position: fixed;
     z-index: 99;
@@ -54,10 +54,17 @@ h2 {
 }
 
 #headlogo {
-    height: 5%;
-    margin: 0 0.5rem;
+    width: 100%;
 }
 
+#headlogo:hover {
+    opacity: 0.6;
+}
+
+#topheader {
+    width: 33%;
+    margin: 0 30%
+}
 
 /* ensuring the navigation is responsive */
 .navposition {
@@ -72,7 +79,7 @@ h2 {
     width: 100%;
     padding: 0.5em 1rem;
 
-    background-color: #ffffff;
+    background-color: #f7f0e4;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
@@ -154,11 +161,10 @@ main {
 }
 
 #welcome2 {
-    border: solid 1%;
     background: pink;
     text-align: center;
-    padding: 5%;
-
+    padding: 3%;
+    border-radius: 30% 70% 70% 30% / 30% 60% 49% 70%;
 }
 
 /*----------------------------footer--------------------------*/
@@ -264,6 +270,12 @@ main {
 
     }
 
+    /* FOR THE LOGO */
+    #topheader {
+        width: 15%;
+        margin: 0;
+    }
+
     /* footer changes so email sign up shows on left, social media on right */
     footer {
         background: lightcoral;
@@ -302,6 +314,9 @@ main {
         justify-content: flex-start;
     }
 
+    #headlogo {
+        margin: none;
+    }
 }
 
 
