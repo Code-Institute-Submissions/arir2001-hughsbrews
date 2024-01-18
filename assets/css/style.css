@@ -186,7 +186,7 @@ main {
 
 /*-the about us section-*/
 #aboutus {
-    height: 80vh;
+    height: 95vh;
     text-align: center;
     background: url(../images/threebeers.jpg);
     background-position: center;
@@ -208,6 +208,7 @@ main {
     align-content: center;
     justify-content: center;
     align-items: center;
+    padding: 5%;
 }
 
 #learnmore {
@@ -235,7 +236,7 @@ a h4 {
 
 /*-the come visit us section-*/
 #thefarm {
-    height: 80vh;
+    height: 98vh;
     text-align: center;
     background: url(../images/farmer.jpg);
     background-position: center;
@@ -351,13 +352,12 @@ main {
     margin-top: 79px;
 }
 
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* nav changes to all be on the same line */
     header {
-        background-color: #ffffff;
+        /*background-color: #f7f0e4;/*/
         padding: 1rem;
         position: fixed;
         z-index: 99;
@@ -370,6 +370,7 @@ main {
         text-align: center;
         display: inline-flex;
         align-items: center;
+        color: inherit;
         letter-spacing: 1.5px;
     }
 
@@ -379,7 +380,6 @@ main {
         z-index: 98;
         width: 100%;
         padding: 0.5em 1rem;
-        background-color: #ffffff;
         box-shadow: none;
 
     }
@@ -431,13 +431,48 @@ main {
     #headlogo {
         margin: none;
     }
+
+    /* welcome section*/
+    #welcome2 {
+        background: pink;
+        text-align: center;
+        padding: 3%;
+        border-radius: 30% 70% 70% 30% / 30% 60% 49% 70%;
+        width: 20%;
+        margin: 0;
+    }
+
+    #welcome3 {
+        padding: 3%;
+        width: 20%;
+        margin: 30vh 0 0 40vw;
+    }
+
+    #aboutusdiv {
+        border-width: 40px;
+        width: 80%;
+        padding: 10%;
+        margin: auto;
+    }
 }
 
 
 
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+    #aboutusdiv {
+        width: 79%;
+        padding: 8%;
+        margin: auto;
+        font-size: larger;
+    }
+
+    #grainsvisit {
+        height: 30vh;
+        width: 30vh;
+    }
+}
 
 
 
