@@ -601,7 +601,7 @@ a h4 {
 }
 
 #book{
-    height: 30vh;
+    height: 40vh;
     text-align: center;
     z-index: 100;
     position: relative;
@@ -629,12 +629,50 @@ a h4 {
     padding: 4%;
 }
 
+/*----------------------------form--------------------------*/
+#form{
+    margin: 10%;
+    margin-top: 30%;
+    padding: 5%;
+
+}
+
+#booking-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    height: 60vh;
+    gap: 20px;
+}
+
+.radio-buttons{
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: smaller;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+.send{
+    background: black;
+    margin: 10% 30%;
+    padding: 0.5%;
+    border-radius: 30% 70% 70% 30% / 30% 30% 39% 70%;
+    color:white;
+    font: courier;
+}
+
 /*----------------------------footer--------------------------*/
 footer {
     background: lightcoral;
     display: flex;
     padding: 1em 3%;
     flex-direction: column;
+    z-index: 100;
 }
 
 #social-networks {
@@ -884,10 +922,12 @@ main {
         width: 30%;
     }
 
+    #form{
+        margin: 10%;
+        margin-top: 20%;
+    }
 }
 
-
-}
 
 
 
@@ -917,6 +957,11 @@ main {
     .order{
         margin: 30%;
     }
+
+    .order:hover{
+        margin: 30%;
+    }
+
 
 }
 

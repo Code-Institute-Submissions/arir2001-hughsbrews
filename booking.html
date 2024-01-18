@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta tags for search engines -->
+    <meta
+      name="description"
+      content="Hugh's Brews - Dublin's finest microbrewry. Irish Mead, Irish Wine, Irish Beer. Brewery Tours, Wine Tasting."
+    />
+    <meta
+      name="keywords"
+      content="brews, beers, mead, Ireland, Dublin, honey, brewery, tour, wine tasting, winery, meadery."
+    />
+
+    <!-- title -->
+    <title>Hugh's Brews</title>
+    <!-- favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_hughsbrews/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_hughsbrews/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_hughsbrews/favicon-16x16.png"
+    />
+    <!-- stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <div id="topheader">
+        <a
+          href="index.html"
+          aria-label="Return to top of home page"
+          class="active"
+          id="headlogo"
+        >
+          <img
+            width="100%"
+            src="assets/images/HBstraightlogo.png"
+            alt="Hugh's Brews"
+          />
+        </a>
+      </div>
+      <!-- navigation with a split  -->
+      <nav class="navposition">
+        <!-- left hand side -->
+        <div class="navleft">
+          <a
+            class="navigation-l"
+            href="thehughs.html"
+            aria-label="About us"
+            >The Hughs</a
+          >
+          <a
+            class="navigation-l"
+            href="thebrews.html"
+            aria-label="All Our Brews"
+            >The Brews</a
+          >
+        </div>
+        <!-- right hand side -->
+        <div class="navright">
+          <a
+            class="navigation-r"
+            href="experiences.html"
+            aria-label="Go to Experiences Page"
+            >Experience!</a
+          >
+        </div>
+      </nav>
+    </header>
+
+<!-- Main content -->
+    <main>
+
+
+        <section id="form">
+            <form id="booking-form" method="POST" action="https://formdump.codeinstitute.net">
+                <div style="width:100%">
+                    <h2><i class="fa-solid fa-beer-mug-empty"></i> the best day ever awaits you</h2>
+                </div >
+                <div >
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name" class="text-input" required>
+                </div>
+                <div>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" class="text-input" required>
+                </div>
+                <div  style="width:100%">
+                    <label for="email_address">Email Address</label>
+                    <input type="email" name="email_address" id="email_address" class="text-input" required>
+                </div>
+
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Brewery Tour and Tasting</label>
+                        <input type="radio" name="experience" id="tourtasting" value="tourtasting" required checked>
+                    </div>
+
+                    <div>
+                        <label for="trail">Bee Keeper's Experience</label>
+                        <input type="radio" name="experience" id="beekeeper" value="beekeeper" required>
+                    </div>
+
+                    <div>
+                        <label for="farmtour">Farm Tour</label>
+                        <input type="radio" name="experience" id="farmtour" value="farmtour" required>
+                    </div>
+
+                    <div>
+                        <label for="all"> All </label>
+                        <input type="radio" name="experience" id="all" value="all" required>
+                    </div>
+
+                    <div>
+                        <label for="date">Your preferred date </label>
+                        <input type="date" id="date" name="date" value="2024-02-02" min="2024-02-02"max="2024-12-25" >
+                    </div>
+                </div>
+                <div style="width: 100%;">
+                    <p style="padding:15%;"> we will email you with an appropriate availability.</p>
+                    <button type="submit" class="send">Enquire</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <!-- check box to allow sign up newsletter box to be opened and closed -->
+      <input type="checkbox" id="email-toggle" name="email-toggle" />
+
+      <!-- social network icons -->
+      <ul id="social-networks">
+        <li id="emailicon">
+          <label for="email-toggle" class="email-toggle-label">
+            <i class="fa-regular fa-envelope"></i>
+          </label>
+        </li>
+
+        <li>
+          <a
+            href="https://www.google.com/maps"
+            target="_blank"
+            rel="noopener"
+            aria-label="Our Address(opens in a new tab)"
+          >
+            <i class="fa-regular fa-compass"></i
+          ></a>
+        </li>
+
+        <li>
+          <a
+            href="https://untappd.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Follw us on Untapped!(opens in a new tab)"
+          >
+            <i class="fa-brands fa-untappd"></i>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our YouTube page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-youtube-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+
+      <!-- newsletter sign up -->
+      <div id="newslettersignup">
+        <span>
+          <p style="padding: 2%">Fancy 10% off? Sign up to our newsletter!</p>
+          <input
+            type="text"
+            placeholder="youremail@address.ie"
+            name="mail"
+            required
+          />
+          <input type="submit" value="sign me up!" />
+        </span>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/14465a7a48.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
