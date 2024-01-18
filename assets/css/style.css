@@ -352,6 +352,145 @@ a h4 {
 }
 
 
+/* -----------------the brews----------------------*/
+
+#brewsbackground {
+    text-align: center;
+    background: cornflowerblue;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20% 5% 5%;
+    width: 100%;
+}
+
+
+.creations {
+    margin: 5em;
+    background: url(assets/images/bartender.jpg);
+}
+
+#create {
+    border: none;
+    padding: 1rem 0 1rem;
+    cursor: pointer;
+}
+
+.box {
+    border-radius: 30% 70% 70% 30% / 30% 30% 39% 70%;
+    background-color: #b2ea6b;
+    padding: 10%;
+    margin: 3%;
+}
+
+
+.creationscontainer {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #d0f8d0;
+    border-radius: 30% 70% 70% 30% / 30% 30% 39% 70%;
+    border-color: black;
+    border-style: double;
+
+    border-width: 10vw;
+    border-color: white;
+    align-content: space-between;
+}
+
+#brewtitle{
+    margin:10%;
+}
+
+
+
+/* pictures and orders */
+#pictures{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#meadbackground {
+    text-align: center;
+    font-weight: 200;
+    color: white;
+    background: url(../images/meadglass.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width:100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#beerbackground {
+    text-align: center;
+    font-weight: 200;
+    color: white;
+    background: url(../images/beerdrink.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width:100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+#winebackground {
+    text-align: center;
+    font-weight: 200;
+    color: white;
+    background: url(../images/wines.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width:100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.orderstyling{
+    font-weight: light;
+    color: white;
+}
+
+.meadstyling{
+    color: gold;
+    font-weight: bold;
+}
+
+.winestyling{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.beerstyling{
+    color: pink;
+    font-weight: bold;
+}
+
+.order{
+    margin: 50%;
+    width: fit-content;
+    padding: 5%;
+    background-color: rgba(152, 205, 252, 0);
+    border-radius: 30% 70% 70% 30% / 30% 30% 39% 70%;
+}
+
+.order:hover{
+    margin: 50%;
+    width: fit-content;
+    padding: 5%;
+    background-color: rgba(152, 205, 252, 0.551);
+    border-radius: 30% 70% 70% 30% / 30% 30% 39% 70%;
+}
+
 /*----------------------------footer--------------------------*/
 footer {
     background: lightcoral;
@@ -421,6 +560,14 @@ main {
     /* Push main content down to accommodate larger header */
     margin-top: 79px;
 }
+
+
+
+
+
+
+
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 678px) {
@@ -565,6 +712,34 @@ main {
         font-size: larger;
     }
 
+    #brewtitle{
+        font-size:3em
+    }
+
+    #brewsbackground {
+        padding: 10% 5% 5%;
+    }
+
+    .creationscontainer{
+        display: flex;
+        justify-content: center;
+        background-color: #d0f8d0;
+        border-radius: 30% 70% 70% 30% / 30% 30% 39% 70%;
+        border-color: black;
+        border-style: double;
+        border-width: 10vw;
+        border-color: white;
+        align-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: row;
+        margin: 5%;
+    }
+
+    .box{
+        padding: 8%;
+    }
+    
 }
 
 
@@ -589,6 +764,15 @@ main {
 
     }
 
+    #brewsbackground {
+        padding: 10% 5% 5%;
+    }
+
+    
+
+    .order{
+        margin: 30%;
+    }
 
 }
 
