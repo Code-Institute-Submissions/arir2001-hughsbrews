@@ -491,6 +491,144 @@ a h4 {
     border-radius: 30% 70% 70% 30% / 30% 30% 39% 70%;
 }
 
+/*----------------------------experiences--------------------------*/
+
+.floating {
+    position: fixed;
+    bottom: 45vh;
+    right: 10%;
+    max-width: 300px;
+}
+
+#expbody {
+    background: url(../images/farmer.jpg)center / cover no-repeat fixed;
+}
+
+
+.welcomeexp {
+    height: 100vh;
+    text-align: center;
+    padding: 2%;
+    margin-top: 20%;
+    position: relative;
+    z-index: 7;
+    color: white;
+    background: url(../images/farmer.jpg) center / cover no-repeat fixed;
+}
+
+.farmcontainer {
+    background: url(../images/greenwheat.jpg)center / cover no-repeat fixed;
+    height: 100vh;
+    text-align: center;
+    padding: 2%;
+    position: relative;
+    z-index: 7;
+    color: white;
+}
+
+.barrelcontainer {
+    background: url(../images/barrells.jpg) center / cover no-repeat fixed;
+    height: 100vh;
+    text-align: center;
+    padding: 2%;
+    position: relative;
+    z-index: 7;
+    color: white;
+}
+
+.meaderycontainer {
+    background: url(../images/beekeepers.jpg) center / cover no-repeat fixed;
+    height: 100vh;
+    text-align: center;
+    padding: 2%;
+    position: relative;
+    z-index: 7;
+    color: white;
+}
+
+
+
+.farmvisit {
+    width: 40%;
+    background-color: black;
+    color: aliceblue;
+    bottom: 14vh;
+    left: 5vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    gap: 8%;
+    overflow: auto;
+    z-index: 100;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    padding: 4%;
+}
+
+.floating {
+    position: fixed;
+    bottom: 45vh;
+    right: 10%;
+    max-width: 300px;
+}
+
+.booknow {
+    border-radius: 45%;
+    margin: 0 15% 0 15%;
+}
+
+.booknow:hover {
+    border-radius: 45%;
+    background: aliceblue;
+    color: black;
+    text-decoration: wavy black;
+    margin: 0 15% 0 15%;
+    cursor: grab;
+}
+
+.headerh1 {
+    background: black;
+    margin: 10% 30%;
+    padding: 0.5%;
+    border-radius: 30% 70% 70% 30% / 30% 30% 39% 70%;
+}
+
+.innertext{
+    margin: 10%;
+}
+
+#book{
+    height: 30vh;
+    text-align: center;
+    z-index: 100;
+    position: relative;
+    color: white;
+    background: url(../images/farmer.jpg) center / cover no-repeat fixed;
+}
+
+#booking{
+    width: 50%;
+    bottom: 10vh;
+    background-color: black;
+    color: aliceblue;
+    bottom: 14vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    gap: 8%;
+    overflow: auto;
+    z-index: 100;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    padding: 4%;
+}
+
 /*----------------------------footer--------------------------*/
 footer {
     background: lightcoral;
@@ -740,6 +878,12 @@ main {
         padding: 8%;
     }
     
+    /* exp section*/
+    .farmvisit{
+        bottom: 20vh;
+        width: 30%;
+    }
+
 }
 
 
