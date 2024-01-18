@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -44,8 +45,8 @@
     <header>
       <div id="topheader">
         <a
-          href="#home"
-          aria-label="Return to top of home page"
+          href="index.html#home"
+          aria-label="Return home page"
           class="active"
           id="headlogo"
         >
@@ -62,8 +63,8 @@
         <div class="navleft">
           <a
             class="navigation-l"
-            href="thehughs.html"
-            aria-label="Read Our Story"
+            href="#aboutusdiv"
+            aria-label="About us"
             >The Hughs</a
           >
           <a
@@ -85,17 +86,19 @@
       </nav>
     </header>
 
-<!-- bios -->
-    <section id="thehugh">
-        <div> 
-            
-            <h4 class="text-center"> We are three generations of Hugh that simply love to brew</h4>
-        
+
+    <main id="hughsbackground">
+      <h4 id="aboutusdiv"> Three generations with a passion for brewing</h4>
+
+      <!-- bio sections-->    
+        <section >
+          <!-- holding 3 circles  -->    
             <div class="hughscontainer">
+              <!-- holding 1 circle  -->    
                 <div class="hughscontainerp">
                     <h2 class="hughstext">Hugh I</h2>
                     <div>
-                        <a href="ourstory.html""> <img src=" styling/images/happy old man.jpeg" alt="Hugh the third"
+                        <a href="ourstory.html""> <img src="assets/images/oldman.jpg" alt="Hugh"
                             class="circle floatright"> </a>
                     </div>
 
@@ -111,7 +114,7 @@
                 <div class="hughscontainerp">
                     <h2 class="hughstext">Hugh II</h2>
                     <div>
-                        <a href="ourstory.html"> <img src="styling/images/middle aged man.jpeg" alt="Hugh the second"
+                        <a href="ourstory.html"> <img src="assets/images/middleman.jpg" alt="Hugh the second"
                                 class="circle "></a>
                     </div>
 
@@ -128,7 +131,7 @@
                 <div class="hughscontainerp">
                     <h2 class="hughstext">Hugh III</h2>
                     <div>
-                        <a href="ourstory.html""> <img src=" styling/images/young man.jpeg" alt="Hugh the third"
+                        <a href="ourstory.html""> <img src=" assets/images/youngman.jpg" alt="Hugh the third"
                             class="circle floatleft"> </a>
                     </div>
 
@@ -142,8 +145,87 @@
                 </div>
 
             </div>
-        </div>
         
     </section>
+    </main>
+
+    <footer>
+      <!-- check box to allow sign up newsletter box to be opened and closed -->
+      <input type="checkbox" id="email-toggle" name="email-toggle" />
+
+      <!-- social network icons -->
+      <ul id="social-networks">
+        <li id="emailicon">
+          <label for="email-toggle" class="email-toggle-label">
+            <i class="fa-regular fa-envelope"></i>
+          </label>
+        </li>
+
+        <li>
+          <a
+            href="https://www.google.com/maps"
+            target="_blank"
+            rel="noopener"
+            aria-label="Our Address(opens in a new tab)"
+          >
+            <i class="fa-regular fa-compass"></i
+          ></a>
+        </li>
+
+        <li>
+          <a
+            href="https://untappd.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Follw us on Untapped!(opens in a new tab)"
+          >
+            <i class="fa-brands fa-untappd"></i>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our YouTube page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-youtube-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+
+      <!-- newsletter sign up -->
+      <div id="newslettersignup">
+        <span>
+          <p style="padding: 2%">Fancy 10% off? Sign up to our newsletter!</p>
+          <input
+            type="text"
+            placeholder="youremail@address.ie"
+            name="mail"
+            required
+          />
+          <input type="submit" value="sign me up!" />
+        </span>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/14465a7a48.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
 
     
