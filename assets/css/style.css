@@ -578,6 +578,11 @@ h4 a {
     padding: 2%;
 }
 
+.link{
+    text-decoration: none;
+    color:inherit;
+}
+
 .booknow:hover {
     color: pink;
     margin: 0 15% 0 15%;
