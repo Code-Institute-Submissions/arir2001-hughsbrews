@@ -225,7 +225,7 @@ h4 a {
 
 /*-the come visit us section-*/
 #thefarm {
-    height: 98vh;
+    height: 90vh;
     text-align: center;
     background: url(../images/farmer.jpg);
     background-position: center;
@@ -292,10 +292,6 @@ h4 a {
 }
 
 
-#thehughs {
-
-}
-
 /* container for 3 circles*/
 .hughscontainer {
     display: flex;
@@ -350,7 +346,7 @@ h4 a {
 
 #brewsbackground {
     text-align: center;
-    background: cornflowerblue;
+    background: rgb(194, 211, 242);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -365,9 +361,16 @@ h4 a {
 }
 
 #create {
-    border: none;
     padding: 1rem 0 1rem;
     cursor: pointer;
+}
+
+#creates {
+    margin: 10%;
+    font-weight: 200;
+    background-color: rgb(194, 211, 242);
+    color: #3a3a3a;
+    padding: 3vh;
 }
 
 .box {
@@ -383,7 +386,6 @@ h4 a {
 
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #d0f8d0;
     border-radius: 30% 70% 70% 30% / 30% 30% 39% 70%;
     border-color: black;
     border-style: double;
@@ -395,15 +397,20 @@ h4 a {
 
 #brewtitle{
     margin:10%;
+    border: double black;
+
 }
 
 
 
 /* pictures and orders */
-#pictures{
-    display: flex;
-    flex-direction: column;
 
+#brewsdiv {
+    border-color: black;
+    border-style: double;
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(149, 178, 230);
 }
 
 #meadbackground {
@@ -414,7 +421,7 @@ h4 a {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 45vh;
     width:100%;
     margin-bottom: 5%;
     margin-top: 5%;
@@ -428,7 +435,7 @@ h4 a {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 45vh;
     width:100%;
     margin-bottom: 5%;
     margin-top: 5%;
@@ -443,7 +450,7 @@ h4 a {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 45vh;
     width:100%;
     margin-bottom: 5%;
     margin-top: 5%;
@@ -470,20 +477,13 @@ h4 a {
 }
 
 .order{
-    margin: 50%;
-    width: fit-content;
-    padding: 5%;
-    background-color: rgba(152, 205, 252, 0);
-    border-radius: 30% 70% 70% 30% / 30% 30% 39% 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(149, 178, 230);
+    padding: 6%;
 }
 
-.order:hover{
-    margin: 50%;
-    width: fit-content;
-    padding: 5%;
-    background-color: rgba(152, 205, 252, 0.551);
-    border-radius: 30% 70% 70% 30% / 30% 30% 39% 70%;
-}
 
 /*----------------------------experiences--------------------------*/
 
