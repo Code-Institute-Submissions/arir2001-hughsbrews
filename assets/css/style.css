@@ -160,7 +160,6 @@ main {
     /* width: 100%; */
     background: url(../images/bartendersingle.jpg) no-repeat center center / cover pink;
     position: relative;
-    margin: 2% 10%;
 }
 
 /*-the little pink bubbles of text-*/
@@ -184,19 +183,20 @@ main {
 
 /*-the about us section-*/
 #aboutus {
-    height: 95vh;
-    text-align: center;
-    background: url(../images/threebeers.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 5%;
+    margin: 5%;
 }
 
 #aboutusdiv {
     border-color: black;
     border-style: double;
     text-align: center;
+    padding: 2%;
+}
+
+#aboutusdiv2{
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 4%;
 }
 
 #learnmore {
@@ -233,6 +233,14 @@ h4 a {
     padding: 5%;
 }
 
+#visitusheading{
+    border-color: white;
+    border-style: double;
+    text-align: center;
+    padding: 2%;
+    color:white;
+    text-transform: capitalize;
+}
 
 /*the bit of white text at the top*/
 #topvisit {
@@ -264,8 +272,9 @@ h4 a {
     align-content: center;
     justify-content: center;
     align-items: center;
-    gap: 8%;
+    gap: 3%;
     overflow: auto;
+    text-transform: capitalize;
 }
 
 
@@ -564,15 +573,13 @@ h4 a {
 }
 
 .booknow {
-    border-radius: 45%;
-    margin: 0 15% 0 15%;
+    background-color: white;
+    color: black;
+    padding: 2%;
 }
 
 .booknow:hover {
-    border-radius: 45%;
-    background: aliceblue;
-    color: black;
-    text-decoration: wavy black;
+    color: pink;
     margin: 0 15% 0 15%;
     cursor: grab;
 }
@@ -601,14 +608,12 @@ h4 a {
     width: 50%;
     bottom: 10vh;
     background-color: black;
-    color: aliceblue;
     bottom: 14vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: stretch;
     justify-content: space-evenly;
-    gap: 8%;
     overflow: auto;
     z-index: 100;
     position: absolute;
@@ -922,8 +927,13 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    main{
-
+    #welcome {
+        padding: 15%;
+        height: 100vh;
+        /* width: 100%; */
+        background: url(../images/bartendersingle.jpg) no-repeat center center / cover pink;
+        position: relative;
+        margin: 2% 10%;
     }
 
 
