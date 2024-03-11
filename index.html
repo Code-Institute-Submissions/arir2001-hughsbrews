@@ -210,18 +210,17 @@
       </ul>
 
       <!-- newsletter sign up -->
-      <div id="newslettersignup" method="POST" action="https://formdump.codeinstitute.net">
-        <span>
+      <div>
+      <form id="newslettersignup" action="thankyou.html">
+        <div>
           <p style="padding: 2%">Fancy 10% off? Sign up to our newsletter!</p>
-          <input
-            type="text"
-            placeholder="youremail@address.ie"
-            name="mail"
-            required
-          />
-          <input type="submit" value="sign me up!" />
+          <span style="display: inline-flex; flex-direction: row;">
+          <input type="email" name="email_address" class="text-input" required placeholder="youremail@address.ie">
+          <button type="submit" class="sending">sign me up!</button>
         </span>
-      </div>
+        </div>
+      </form>
+      <div>
     </footer>
 
     <script
