@@ -48,6 +48,7 @@ h1 {
 h2 {
     text-transform: lowercase;
     letter-spacing: 2px;
+    
 }
 
 h3 {
@@ -305,41 +306,37 @@ h4 a {
 }
 
 /* container for 1 circle*/
-.hughscontainerp {
+.hughscontainerp{
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
     align-items: center;
     border: none;
     height: min-content;
-    padding: 1vw;
     flex-wrap: nowrap;
-    background: white;
-    margin: 2%;
-    border-radius: 20% 0;
     align-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    margin: 2%;
 }
 
 /* circle creator*/
 .circle {
-    width: 20vw;
-    height: 20vw;
+    width: 25vw;
+    height: 25vw;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    border: double;
-    border-color: aliceblue;
-    border-width: 2px;
     border-radius: 50%;
 }
+
+/* 
 
 .circle:hover {
     cursor: pointer;
     background-color: rgba(100, 148, 237, 0.175);
 }
 
-
+*/
 
 .hughstext {
     text-align: center;
@@ -872,11 +869,7 @@ main {
         align-items: center;
         border: none;
         height: min-content;
-        padding: 5vw;
         flex-wrap: nowrap;
-        background: white;
-        margin: 2%;
-        border-radius: 20% 0;
         align-content: center;
         flex-direction: row;
         
