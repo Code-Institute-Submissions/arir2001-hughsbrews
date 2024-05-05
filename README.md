@@ -132,7 +132,18 @@ https://fonts.google.com/specimen/Special+Elite
 The Hughs page was deleted and made into a seperate section on the index page as so:
 ![Sign Up](blob/indexchange.png)
 
+The Brews page was simplified as so:
+![BrewsPage](blob/brews1.png)
+![BrewsPage](blob/brews2.png)
+![BrewsPage](blob/brews3.png)
 
+The end of the experience page was changed so there is no more floating button over the entire page, and the booking is now centered as so: 
+
+![BrewsPage](blob/booking1.png)
+
+After the experience is booked or the email for the newsletter is inputted, the user is now taken to a thank-you paage, where before was a form dump from
+the code institute. 
+![Thank You Page](blob/formthankyouo.png)
 
 
 These changes simplified the site and made it easier to naavigate.
