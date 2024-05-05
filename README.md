@@ -6,9 +6,10 @@ Hugh's Brews is a website based on a fictional microbrewery created by three gen
 ![Responsive Mockup](blob/amiresponsive.png)
 
 ## User Experience
+
 ![UserExperience](blob/uxexp.png)
 
-###Visitor experiences
+### Visitor experiences
 As a first time visitor, I want to: 
 - Easily find information on the background of Hugh's Brews and the purpose of the site
 - Easily navigate through the site and find relevant information on experiences, beverages.
@@ -26,6 +27,7 @@ As a frequent visitor, I want to:
 - View updates on how the beverages are brewed through their social media sites.
 
 ## Design
+
 As this is an indie company, I wanted to the design to be a little different. For this reason I chose a lighter palette of pinks, beiges, blues. 
 
 Colors used: 
@@ -33,9 +35,10 @@ Colors used:
 - 'lightblue' : rgb(173, 216, 230)
 - 'pink' rgb(255, 192, 203)
 - 'lightcoral' rgb(240, 128, 128)
+
 ![Beige](blob/beige.png)
 ![Lightcoral](blob/lightcoral.png)
-
+<img src="blob/lightcoral.png" alt="drawing" width="200"/>
 
 
 ## Features
