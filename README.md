@@ -3,7 +3,7 @@
 Hugh's Brews is a website based on a fictional microbrewery created by three generations of Hugh Moloney. The website's primary objective is to introduce the viewer to the company, its owners, its selection of drinks, and the possible 'experiences' provided by the company. The company has a farm in Kildare where all its barley for its beer is farmed, where the wine is aged, and where the honey for its mead is stocked, and it offers tours and different workshops. The target audience is young Irish couples and tourists looking for an interesting field trip! The website hopes to advertise a holostic, artistic and small-business image that can provide yummy drinks and interesting tours. 
 
 
-![Responsice Mockup](blob/amiresponsive.png)
+![Responsive Mockup](blob/amiresponsive.png)
 ## Features 
 
 
