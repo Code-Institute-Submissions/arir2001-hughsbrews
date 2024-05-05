@@ -232,6 +232,10 @@ h4 a {
     background-size: cover;
     background-attachment: fixed;
     padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
 }
 
 #visitusheading{
@@ -245,24 +249,24 @@ h4 a {
 
 /*the bit of white text at the top*/
 #topvisit {
-    display: block;
-    width: 60vw;
     color: rgb(255, 255, 255);
     text-transform: lowercase;
-    margin-top: 20vh;
+    /* margin-top: 20vh; */
     text-align: center;
-    position: absolute;
+    display: flex;
+    /* position: absolute; */
+    flex-direction: column;
 
 }
 
 /*-come visit us! text box-*/
 #grainsvisit {
+    align-self: center;
     display: flex;
     width: 48vw;
     height: 48vw;
     background-color: black;
     color: aliceblue;
-    margin: 40vh 40vh 0 0;
     border: aliceblue;
     border-style: double;
     text-align: center;
@@ -852,7 +856,6 @@ main {
     #grainsvisit {
         width: 30vh;
         height: 30vh;
-        margin-left: 12%
     }
 
     /*hughs section*/
@@ -937,13 +940,12 @@ main {
         /* width: 100%; */
         background: url(../images/bartendersingle.jpg) no-repeat center center / cover pink;
         position: relative;
-        margin: 2% 10%;
     }
 
 
     #aboutusdiv {
         width: 79%;
-        padding: 8%;
+        padding: 3%;
         margin: auto;
         font-size: larger;
     }
@@ -951,8 +953,6 @@ main {
     #grainsvisit {
         height: 30vh;
         width: 30vh;
-        margin-left: 12%;
-
     }
 
     #brewsbackground {
