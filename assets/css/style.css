@@ -488,6 +488,11 @@ h4 a {
     padding: 6%;
 }
 
+.order>div:hover{
+    opacity: 0.6;
+    cursor: grab;
+}
+
 
 /*----------------------------experiences--------------------------*/
 
