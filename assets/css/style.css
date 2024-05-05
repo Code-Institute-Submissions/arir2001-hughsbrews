@@ -147,7 +147,7 @@ h3 {
 
 /*--------------------------main --------------------------*/
 main {
-    background: blanchedalmond;
+    background: rgb(255, 235, 205);
     flex: 1 0 auto;
     /* make main take up as surplus space in body to push footer down. */
 }
@@ -200,7 +200,7 @@ main {
 
 #learnmore {
     width: 30%;
-    background: lightblue;
+    background: rgb(173, 216, 230);
     padding: 1%;
     font-size: 0.8em;
     border-radius: 20% /50%;
@@ -588,7 +588,7 @@ h4 a {
 }
 
 .booknow:hover {
-    color: pink;
+    color: rgb(255, 192, 203);
     margin: 0 15% 0 15%;
     cursor: grab;
 }
@@ -671,7 +671,7 @@ h4 a {
 
 /*----------------------------footer--------------------------*/
 footer {
-    background: lightcoral;
+    background: rgb(240, 128, 128);
     display: flex;
     padding: 1em 3%;
     flex-direction: column;

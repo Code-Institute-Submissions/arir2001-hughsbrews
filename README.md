@@ -29,6 +29,13 @@ As a frequent visitor, I want to:
 As this is an indie company, I wanted to the design to be a little different. For this reason I chose a lighter palette of pinks, beiges, blues. 
 
 Colors used: 
+- 'blanched almond' beige: rgb(255, 235, 205)
+- 'lightblue' : rgb(173, 216, 230)
+- 'pink' rgb(255, 192, 203)
+- 'lightcoral' rgb(240, 128, 128)
+![Beige](blob/beige.png)
+![Lightcoral](blob/lightcoral.png)
+
 
 
 ## Features
