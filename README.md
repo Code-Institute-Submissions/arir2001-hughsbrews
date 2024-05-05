@@ -158,7 +158,7 @@ These changes simplified the site and made it easier to naavigate.
 
 Using [Lighthouse](https://pagespeed.web.dev/analysis/https-arir2001-github-io-hughsbrews/wbq4gsl896?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=en-GB&utm_source=lh-chrome-ext)
 
-![testing](blob/lighthouse.png)
+![testing](blob/ligthhouse.png)
 
 While everything was well done, the performance is poor due to the way the images were uploaded in large files. 
 
