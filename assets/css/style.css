@@ -250,11 +250,8 @@ h4 a {
 /*the bit of white text at the top*/
 #topvisit {
     color: rgb(255, 255, 255);
-    text-transform: lowercase;
-    /* margin-top: 20vh; */
     text-align: center;
     display: flex;
-    /* position: absolute; */
     flex-direction: column;
 
 }
