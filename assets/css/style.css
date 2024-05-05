@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     /*generic project styles*/
     color: #3a3a3a;
+    /*font-family: 'Source Serif 4', 'Courier New', Courier, monospace;*/
     font-family: 'Special Elite', 'Courier New', Courier, monospace;
     background-color: black;
 }

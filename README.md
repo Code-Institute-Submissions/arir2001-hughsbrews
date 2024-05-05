@@ -129,6 +129,8 @@ https://fonts.google.com/specimen/Special+Elite
 ![Booking](blob/form.png)
 
 ### Changes Made: 
+This website was first submitted in January, but failed its submission. Here are the changes made for the re-submission: 
+
 The Hughs page was deleted and made into a seperate section on the index page as so:
 ![Sign Up](blob/indexchange.png)
 
@@ -143,7 +145,7 @@ The end of the experience page was changed so there is no more floating button o
 
 After the experience is booked or the email for the newsletter is inputted, the user is now taken to a thank-you paage, where before was a form dump from
 the code institute. 
-![Thank You Page](blob/formthankyouo.png)
+![Thank You Page](blob/formthankyou.png)
 
 
 These changes simplified the site and made it easier to naavigate.
@@ -154,7 +156,7 @@ These changes simplified the site and made it easier to naavigate.
 
 ## Testing 
 
-Using [Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2F8000-arir2001-hughsbrews-rz235lbgdzz.ws-eu107.gitpod.io%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+Using [Lighthouse](https://pagespeed.web.dev/analysis/https-arir2001-github-io-hughsbrews/wbq4gsl896?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=en-GB&utm_source=lh-chrome-ext)
 
 ![testing](blob/lighthouse.png)
 
@@ -170,9 +172,9 @@ While everything was well done, the performance is poor due to the way the image
 
 ### Unfixed Bugs
 
-The unfixed bugs found in the validators were mainly to do with image sizing and minor syntax structure like trailing slaashes. Due to the time constrraints on this project it was deemed these could be fixed at a later date. 
+The unfixed bugs found in the validators were mainly to do with image sizing and minor syntax structure like trailing slaashes. 
 
-The performance could be improved upon also. 
+The performance could be improved upon also by controlling the image sizes and uploading them as svg. 
 
 ## Deployment
 
