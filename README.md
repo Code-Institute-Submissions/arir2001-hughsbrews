@@ -4,8 +4,34 @@ Hugh's Brews is a website based on a fictional microbrewery created by three gen
 
 
 ![Responsive Mockup](blob/amiresponsive.png)
-## Features 
 
+## User Experience
+![UserExperience](blob/uxexp.png)
+
+###Visitor experiences
+As a first time visitor, I want to: 
+- Easily find information on the background of Hugh's Brews and the purpose of the site
+- Easily navigate through the site and find relevant information on experiences, beverages.
+- Locate the the social media links 
+
+As a returning visitor, I want to: 
+- Sign up to the newsletter
+- Read how the beers were made
+- Buy the beers
+- Book an experience
+
+As a frequent visitor, I want to: 
+- See what new beverages have been added
+- See what new experiences have been added
+- View updates on how the beverages are brewed through their social media sites.
+
+## Design
+As this is an indie company, I wanted to the design to be a little different. For this reason I chose a lighter palette of pinks, beiges, blues. 
+
+Colors used: 
+
+
+## Features
 
 ### Existing Features
 
