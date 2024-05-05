@@ -30,7 +30,7 @@ As a frequent visitor, I want to:
 
 As this is an indie company, I wanted to the design to be a little different. For this reason I chose a lighter palette of pinks, beiges, blues. 
 
-Colors used: 
+### Colors used: 
 - 'blanched almond' beige: rgb(255, 235, 205)
 - 'lightblue' : rgb(173, 216, 230)
 - 'pink' rgb(255, 192, 203)
@@ -41,9 +41,16 @@ Colors used:
 <img src="blob/blue.png" alt="blue" width="100" height="100"/>
 <img src="blob/pink.png" alt="pink" width="100" height="100"/>
 
+### Font used: 
+The google font used is called 'Special Elite', and is reminiscent of a typewriter font.
+
+You can find the font here: 
+https://fonts.google.com/specimen/Special+Elite
+![Type](blob/type.png)
+
 ## Features
 
-### Existing Features
+### The old page: 
 
 - __Navigation Bar__
 
@@ -120,6 +127,15 @@ Colors used:
   - This page is a simple booking form adapted from the Code Institute Lovee Running form. It simply gives a preferred booking date, activity and email address. 
 
 ![Booking](blob/form.png)
+
+### Changes Made: 
+The Hughs page was deleted and made into a seperate section on the index page as so:
+![Sign Up](blob/indexchange.png)
+
+
+
+
+These changes simplified the site and made it easier to naavigate.
 
 ### Features Left to Implement
 
