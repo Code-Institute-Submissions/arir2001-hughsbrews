@@ -36,10 +36,10 @@ Colors used:
 - 'pink' rgb(255, 192, 203)
 - 'lightcoral' rgb(240, 128, 128)
 
-![Beige](blob/beige.png)
-![Lightcoral](blob/lightcoral.png)
-<img src="blob/lightcoral.png" alt="drawing" width="200"/>
-
+<img src="blob/lightcoral.png" alt="light coral" width="100" height="100"/>
+<img src="blob/beige.png" alt="Beige" width="100" height="100"/>
+<img src="blob/blue.png" alt="blue" width="100" height="100"/>
+<img src="blob/pink.png" alt="pink" width="100" height="100"/>
 
 ## Features
 
