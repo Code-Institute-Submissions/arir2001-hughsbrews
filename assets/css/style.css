@@ -815,7 +815,7 @@ main {
         gap: 8%;
     }
 
-    #social-networks:hover {
+    #social-networks > li:hover {
         opacity: 0.6;
 
     }
